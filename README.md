@@ -417,6 +417,7 @@ tests/test_flaw_detector.py::test_flaw_penalty_accumulation PASSED       [ 85%]
 tests/test_gradient_benchmark.py::test_gradient PASSED                   [100%]
 
 ============================== 7 passed in 9.64s ==============================
+```
 
 ---
 
