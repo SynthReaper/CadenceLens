@@ -1,0 +1,23 @@
+# Core audio signal processing & numerical computing
+numpy>=1.26.0
+scipy>=1.12.0
+soundfile>=0.14.0
+librosa>=1.0.0
+
+# Machine learning & data manipulation
+pandas>=2.2.0
+scikit-learn>=1.4.0
+
+# Web backend & API
+fastapi>=0.110.0
+uvicorn>=0.28.0
+python-multipart>=0.0.9
+
+# Interactive dashboards & visualization
+streamlit>=1.32.0
+plotly>=5.20.0
+matplotlib>=3.8.0
+
+# Testing & code quality
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

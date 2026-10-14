@@ -1,0 +1,12 @@
+{
+  "name": "cadencelens-monorepo",
+  "version": "2.4.0",
+  "description": "CadenceLens: Contrastive Speech Analytics & Temporal Flaw Grounding. Created by SynthReaper.",
+  "author": "SynthReaper",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "dev": "cd frontend && npm run dev",
+    "preview": "cd frontend && npm run preview"
+  }
+}
