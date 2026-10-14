@@ -1,0 +1,2642 @@
+{
+  "dataset_name": "Contrastive-Oratory-2026",
+  "version": "2.0.0",
+  "description": "High-fidelity contrastive speech dataset pairing studio neural and historical rhetorical baselines with mathematically bounded acoustic flaw gradients.",
+  "sampling_rate": 22050,
+  "format": "WAV 16-bit PCM Mono",
+  "speeches": {
+    "jfk_inaugural": {
+      "title": "JFK Inaugural Address (1961)",
+      "speaker": "John F. Kennedy",
+      "gender": "male",
+      "voice_model": "en-US-ChristopherNeural",
+      "transcript": "And so, my fellow Americans: ask not what your country can do for you \u2014 ask what you can do for your country. My fellow citizens of the world: ask not what America will do for you, but what together we can do for the freedom of man.",
+      "baseline_audio": "speeches/jfk_inaugural/baseline.wav",
+      "baseline_duration_sec": 15.48,
+      "words": [
+        {
+          "index": 0,
+          "word": "And",
+          "start_sec": 0.252,
+          "end_sec": 0.453,
+          "start_ms": 252,
+          "end_ms": 453,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 1,
+          "word": "so,",
+          "start_sec": 0.463,
+          "end_sec": 0.664,
+          "start_ms": 463,
+          "end_ms": 664,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 2,
+          "word": "my",
+          "start_sec": 0.674,
+          "end_sec": 0.875,
+          "start_ms": 674,
+          "end_ms": 875,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 3,
+          "word": "fellow",
+          "start_sec": 1.042,
+          "end_sec": 1.444,
+          "start_ms": 1042,
+          "end_ms": 1444,
+          "duration_sec": 0.402
+        },
+        {
+          "index": 4,
+          "word": "Americans:",
+          "start_sec": 1.454,
+          "end_sec": 2.258,
+          "start_ms": 1454,
+          "end_ms": 2258,
+          "duration_sec": 0.804
+        },
+        {
+          "index": 5,
+          "word": "ask",
+          "start_sec": 2.268,
+          "end_sec": 2.469,
+          "start_ms": 2268,
+          "end_ms": 2469,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 6,
+          "word": "not",
+          "start_sec": 2.667,
+          "end_sec": 2.868,
+          "start_ms": 2667,
+          "end_ms": 2868,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 7,
+          "word": "what",
+          "start_sec": 2.878,
+          "end_sec": 3.079,
+          "start_ms": 2878,
+          "end_ms": 3079,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 8,
+          "word": "your",
+          "start_sec": 3.089,
+          "end_sec": 3.692,
+          "start_ms": 3089,
+          "end_ms": 3692,
+          "duration_sec": 0.603
+        },
+        {
+          "index": 9,
+          "word": "country",
+          "start_sec": 3.702,
+          "end_sec": 4.305,
+          "start_ms": 3702,
+          "end_ms": 4305,
+          "duration_sec": 0.603
+        },
+        {
+          "index": 10,
+          "word": "can",
+          "start_sec": 4.315,
+          "end_sec": 4.516,
+          "start_ms": 4315,
+          "end_ms": 4516,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 11,
+          "word": "do",
+          "start_sec": 4.526,
+          "end_sec": 4.727,
+          "start_ms": 4526,
+          "end_ms": 4727,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 12,
+          "word": "for",
+          "start_sec": 5.036,
+          "end_sec": 5.237,
+          "start_ms": 5036,
+          "end_ms": 5237,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 13,
+          "word": "you",
+          "start_sec": 5.247,
+          "end_sec": 5.85,
+          "start_ms": 5247,
+          "end_ms": 5850,
+          "duration_sec": 0.603
+        },
+        {
+          "index": 14,
+          "word": "\u2014",
+          "start_sec": 5.86,
+          "end_sec": 6.061,
+          "start_ms": 5860,
+          "end_ms": 6061,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 15,
+          "word": "ask",
+          "start_sec": 6.071,
+          "end_sec": 6.272,
+          "start_ms": 6071,
+          "end_ms": 6272,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 16,
+          "word": "what",
+          "start_sec": 6.282,
+          "end_sec": 6.483,
+          "start_ms": 6282,
+          "end_ms": 6483,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 17,
+          "word": "you",
+          "start_sec": 6.493,
+          "end_sec": 7.096,
+          "start_ms": 6493,
+          "end_ms": 7096,
+          "duration_sec": 0.603
+        },
+        {
+          "index": 18,
+          "word": "can",
+          "start_sec": 7.752,
+          "end_sec": 7.953,
+          "start_ms": 7752,
+          "end_ms": 7953,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 19,
+          "word": "do",
+          "start_sec": 7.963,
+          "end_sec": 8.164,
+          "start_ms": 7963,
+          "end_ms": 8164,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 20,
+          "word": "for",
+          "start_sec": 8.174,
+          "end_sec": 8.375,
+          "start_ms": 8173,
+          "end_ms": 8375,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 21,
+          "word": "your",
+          "start_sec": 8.385,
+          "end_sec": 8.988,
+          "start_ms": 8385,
+          "end_ms": 8988,
+          "duration_sec": 0.603
+        },
+        {
+          "index": 22,
+          "word": "country.",
+          "start_sec": 8.998,
+          "end_sec": 9.601,
+          "start_ms": 8998,
+          "end_ms": 9601,
+          "duration_sec": 0.603
+        },
+        {
+          "index": 23,
+          "word": "My",
+          "start_sec": 9.749,
+          "end_sec": 9.95,
+          "start_ms": 9749,
+          "end_ms": 9950,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 24,
+          "word": "fellow",
+          "start_sec": 9.96,
+          "end_sec": 10.362,
+          "start_ms": 9960,
+          "end_ms": 10362,
+          "duration_sec": 0.402
+        },
+        {
+          "index": 25,
+          "word": "citizens",
+          "start_sec": 10.372,
+          "end_sec": 10.975,
+          "start_ms": 10372,
+          "end_ms": 10975,
+          "duration_sec": 0.603
+        },
+        {
+          "index": 26,
+          "word": "of",
+          "start_sec": 10.985,
+          "end_sec": 11.186,
+          "start_ms": 10985,
+          "end_ms": 11186,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 27,
+          "word": "the",
+          "start_sec": 11.196,
+          "end_sec": 11.397,
+          "start_ms": 11196,
+          "end_ms": 11397,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 28,
+          "word": "world:",
+          "start_sec": 11.407,
+          "end_sec": 11.608,
+          "start_ms": 11407,
+          "end_ms": 11608,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 29,
+          "word": "ask",
+          "start_sec": 11.618,
+          "end_sec": 11.819,
+          "start_ms": 11618,
+          "end_ms": 11819,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 30,
+          "word": "not",
+          "start_sec": 12.164,
+          "end_sec": 12.365,
+          "start_ms": 12164,
+          "end_ms": 12365,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 31,
+          "word": "what",
+          "start_sec": 12.375,
+          "end_sec": 12.576,
+          "start_ms": 12375,
+          "end_ms": 12576,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 32,
+          "word": "America",
+          "start_sec": 12.586,
+          "end_sec": 13.39,
+          "start_ms": 12586,
+          "end_ms": 13390,
+          "duration_sec": 0.804
+        },
+        {
+          "index": 33,
+          "word": "will",
+          "start_sec": 13.4,
+          "end_sec": 13.601,
+          "start_ms": 13400,
+          "end_ms": 13601,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 34,
+          "word": "do",
+          "start_sec": 13.611,
+          "end_sec": 13.812,
+          "start_ms": 13611,
+          "end_ms": 13812,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 35,
+          "word": "for",
+          "start_sec": 13.822,
+          "end_sec": 14.023,
+          "start_ms": 13822,
+          "end_ms": 14023,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 36,
+          "word": "you,",
+          "start_sec": 14.033,
+          "end_sec": 14.636,
+          "start_ms": 14033,
+          "end_ms": 14636,
+          "duration_sec": 0.603
+        },
+        {
+          "index": 37,
+          "word": "but",
+          "start_sec": 14.646,
+          "end_sec": 14.847,
+          "start_ms": 14646,
+          "end_ms": 14847,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 38,
+          "word": "what",
+          "start_sec": 14.857,
+          "end_sec": 15.058,
+          "start_ms": 14857,
+          "end_ms": 15058,
+          "duration_sec": 0.201
+        },
+        {
+          "index": 39,
+          "word": "together",
+          "start_sec": 15.068,
+          "end_sec": 15.48,
+          "start_ms": 15068,
+          "end_ms": 15480,
+          "duration_sec": 0.412
+        },
+        {
+          "index": 40,
+          "word": "we",
+          "start_sec": 15.49,
+          "end_sec": 15.48,
+          "start_ms": 15490,
+          "end_ms": 15480,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 41,
+          "word": "can",
+          "start_sec": 15.49,
+          "end_sec": 15.48,
+          "start_ms": 15490,
+          "end_ms": 15480,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 42,
+          "word": "do",
+          "start_sec": 15.49,
+          "end_sec": 15.48,
+          "start_ms": 15490,
+          "end_ms": 15480,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 43,
+          "word": "for",
+          "start_sec": 15.49,
+          "end_sec": 15.48,
+          "start_ms": 15490,
+          "end_ms": 15480,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 44,
+          "word": "the",
+          "start_sec": 15.49,
+          "end_sec": 15.48,
+          "start_ms": 15490,
+          "end_ms": 15480,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 45,
+          "word": "freedom",
+          "start_sec": 15.49,
+          "end_sec": 15.48,
+          "start_ms": 15490,
+          "end_ms": 15480,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 46,
+          "word": "of",
+          "start_sec": 15.49,
+          "end_sec": 15.48,
+          "start_ms": 15490,
+          "end_ms": 15480,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 47,
+          "word": "man.",
+          "start_sec": 15.49,
+          "end_sec": 15.48,
+          "start_ms": 15490,
+          "end_ms": 15480,
+          "duration_sec": -0.01
+        }
+      ],
+      "tiers": {
+        "tier_1_near_perfect": {
+          "file": "speeches/jfk_inaugural/tier_1_near_perfect.wav",
+          "quality_tier": "Near-Perfect (Score ~85)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 6.97,
+              "end_sec": 8.69,
+              "start_ms": 6966,
+              "end_ms": 8686,
+              "severity": "MODERATE",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.35,
+              "description": "Speech tempo violently accelerated by 35% (+1.35x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_1_near_perfect",
+              "speech_key": "jfk_inaugural"
+            }
+          ]
+        },
+        "tier_2_moderate_flaws": {
+          "file": "speeches/jfk_inaugural/tier_2_moderate_flaws.wav",
+          "quality_tier": "Moderate Flaws (Score ~68)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 4.64,
+              "end_sec": 6.39,
+              "start_ms": 4644,
+              "end_ms": 6394,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 1750,
+              "description": "Awkward mid-clause pause of 1.75s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "jfk_inaugural"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 10.06,
+              "end_sec": 13.16,
+              "start_ms": 10062,
+              "end_ms": 13158,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "jfk_inaugural"
+            }
+          ]
+        },
+        "tier_3_severe_flaws": {
+          "file": "speeches/jfk_inaugural/tier_3_severe_flaws.wav",
+          "quality_tier": "Severe Flaws (Score ~48)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 3.1,
+              "end_sec": 4.87,
+              "start_ms": 3096,
+              "end_ms": 4865,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.75,
+              "description": "Speech tempo violently accelerated by 75% (+1.75x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "jfk_inaugural"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 7.74,
+              "end_sec": 8.39,
+              "start_ms": 7740,
+              "end_ms": 8390,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "jfk_inaugural"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 10.53,
+              "end_sec": 13.93,
+              "start_ms": 10526,
+              "end_ms": 13932,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "jfk_inaugural"
+            }
+          ]
+        },
+        "tier_4_botched": {
+          "file": "speeches/jfk_inaugural/tier_4_botched.wav",
+          "quality_tier": "Botched / Catastrophic (Score ~32)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 2.32,
+              "end_sec": 4.52,
+              "start_ms": 2322,
+              "end_ms": 4522,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 2200,
+              "description": "Awkward mid-clause pause of 2.20s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_4_botched",
+              "speech_key": "jfk_inaugural"
+            },
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 5.42,
+              "end_sec": 7.09,
+              "start_ms": 5418,
+              "end_ms": 7091,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.85,
+              "description": "Speech tempo violently accelerated by 85% (+1.85x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_4_botched",
+              "speech_key": "jfk_inaugural"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 9.29,
+              "end_sec": 10.09,
+              "start_ms": 9288,
+              "end_ms": 10088,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_4_botched",
+              "speech_key": "jfk_inaugural"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 10.84,
+              "end_sec": 14.71,
+              "start_ms": 10836,
+              "end_ms": 14706,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_4_botched",
+              "speech_key": "jfk_inaugural"
+            }
+          ]
+        }
+      }
+    },
+    "mlk_dream": {
+      "title": "I Have a Dream (1963)",
+      "speaker": "Dr. Martin Luther King Jr.",
+      "gender": "male",
+      "voice_model": "en-US-GuyNeural",
+      "transcript": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: We hold these truths to be self-evident, that all men are created equal. I have a dream that one day even the state of Mississippi will be transformed into an oasis of freedom.",
+      "baseline_audio": "speeches/mlk_dream/baseline.wav",
+      "baseline_duration_sec": 15.94,
+      "words": [
+        {
+          "index": 0,
+          "word": "I",
+          "start_sec": 0.252,
+          "end_sec": 0.42,
+          "start_ms": 252,
+          "end_ms": 420,
+          "duration_sec": 0.168
+        },
+        {
+          "index": 1,
+          "word": "have",
+          "start_sec": 0.43,
+          "end_sec": 0.765,
+          "start_ms": 430,
+          "end_ms": 765,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 2,
+          "word": "a",
+          "start_sec": 0.775,
+          "end_sec": 0.942,
+          "start_ms": 775,
+          "end_ms": 942,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 3,
+          "word": "dream",
+          "start_sec": 0.952,
+          "end_sec": 1.287,
+          "start_ms": 952,
+          "end_ms": 1287,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 4,
+          "word": "that",
+          "start_sec": 1.297,
+          "end_sec": 1.464,
+          "start_ms": 1297,
+          "end_ms": 1464,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 5,
+          "word": "one",
+          "start_sec": 1.474,
+          "end_sec": 1.809,
+          "start_ms": 1474,
+          "end_ms": 1809,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 6,
+          "word": "day",
+          "start_sec": 1.819,
+          "end_sec": 2.154,
+          "start_ms": 1819,
+          "end_ms": 2154,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 7,
+          "word": "this",
+          "start_sec": 2.164,
+          "end_sec": 2.331,
+          "start_ms": 2164,
+          "end_ms": 2331,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 8,
+          "word": "nation",
+          "start_sec": 2.341,
+          "end_sec": 2.843,
+          "start_ms": 2341,
+          "end_ms": 2843,
+          "duration_sec": 0.502
+        },
+        {
+          "index": 9,
+          "word": "will",
+          "start_sec": 2.853,
+          "end_sec": 3.02,
+          "start_ms": 2853,
+          "end_ms": 3020,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 10,
+          "word": "rise",
+          "start_sec": 3.03,
+          "end_sec": 3.365,
+          "start_ms": 3030,
+          "end_ms": 3365,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 11,
+          "word": "up",
+          "start_sec": 3.375,
+          "end_sec": 3.542,
+          "start_ms": 3375,
+          "end_ms": 3542,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 12,
+          "word": "and",
+          "start_sec": 3.552,
+          "end_sec": 3.719,
+          "start_ms": 3552,
+          "end_ms": 3719,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 13,
+          "word": "live",
+          "start_sec": 3.729,
+          "end_sec": 4.064,
+          "start_ms": 3729,
+          "end_ms": 4064,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 14,
+          "word": "out",
+          "start_sec": 4.074,
+          "end_sec": 4.409,
+          "start_ms": 4074,
+          "end_ms": 4409,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 15,
+          "word": "the",
+          "start_sec": 4.419,
+          "end_sec": 4.586,
+          "start_ms": 4419,
+          "end_ms": 4586,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 16,
+          "word": "true",
+          "start_sec": 4.596,
+          "end_sec": 4.931,
+          "start_ms": 4596,
+          "end_ms": 4931,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 17,
+          "word": "meaning",
+          "start_sec": 4.941,
+          "end_sec": 5.527,
+          "start_ms": 4941,
+          "end_ms": 5527,
+          "duration_sec": 0.586
+        },
+        {
+          "index": 18,
+          "word": "of",
+          "start_sec": 5.537,
+          "end_sec": 5.704,
+          "start_ms": 5537,
+          "end_ms": 5704,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 19,
+          "word": "its",
+          "start_sec": 5.714,
+          "end_sec": 5.881,
+          "start_ms": 5714,
+          "end_ms": 5881,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 20,
+          "word": "creed:",
+          "start_sec": 5.891,
+          "end_sec": 6.31,
+          "start_ms": 5891,
+          "end_ms": 6310,
+          "duration_sec": 0.419
+        },
+        {
+          "index": 21,
+          "word": "We",
+          "start_sec": 6.32,
+          "end_sec": 6.487,
+          "start_ms": 6320,
+          "end_ms": 6487,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 22,
+          "word": "hold",
+          "start_sec": 6.497,
+          "end_sec": 6.664,
+          "start_ms": 6497,
+          "end_ms": 6664,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 23,
+          "word": "these",
+          "start_sec": 6.674,
+          "end_sec": 7.009,
+          "start_ms": 6674,
+          "end_ms": 7009,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 24,
+          "word": "truths",
+          "start_sec": 7.019,
+          "end_sec": 7.186,
+          "start_ms": 7019,
+          "end_ms": 7186,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 25,
+          "word": "to",
+          "start_sec": 7.196,
+          "end_sec": 7.363,
+          "start_ms": 7196,
+          "end_ms": 7363,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 26,
+          "word": "be",
+          "start_sec": 7.373,
+          "end_sec": 7.54,
+          "start_ms": 7373,
+          "end_ms": 7540,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 27,
+          "word": "self-evident,",
+          "start_sec": 7.55,
+          "end_sec": 8.22,
+          "start_ms": 7550,
+          "end_ms": 8220,
+          "duration_sec": 0.67
+        },
+        {
+          "index": 28,
+          "word": "that",
+          "start_sec": 8.23,
+          "end_sec": 8.397,
+          "start_ms": 8230,
+          "end_ms": 8397,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 29,
+          "word": "all",
+          "start_sec": 8.407,
+          "end_sec": 8.574,
+          "start_ms": 8407,
+          "end_ms": 8574,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 30,
+          "word": "men",
+          "start_sec": 9.61,
+          "end_sec": 9.777,
+          "start_ms": 9610,
+          "end_ms": 9777,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 31,
+          "word": "are",
+          "start_sec": 9.787,
+          "end_sec": 10.122,
+          "start_ms": 9787,
+          "end_ms": 10122,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 32,
+          "word": "created",
+          "start_sec": 10.132,
+          "end_sec": 10.718,
+          "start_ms": 10132,
+          "end_ms": 10718,
+          "duration_sec": 0.586
+        },
+        {
+          "index": 33,
+          "word": "equal.",
+          "start_sec": 10.728,
+          "end_sec": 11.23,
+          "start_ms": 10728,
+          "end_ms": 11230,
+          "duration_sec": 0.502
+        },
+        {
+          "index": 34,
+          "word": "I",
+          "start_sec": 11.24,
+          "end_sec": 11.407,
+          "start_ms": 11240,
+          "end_ms": 11407,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 35,
+          "word": "have",
+          "start_sec": 11.417,
+          "end_sec": 11.752,
+          "start_ms": 11417,
+          "end_ms": 11752,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 36,
+          "word": "a",
+          "start_sec": 11.762,
+          "end_sec": 11.929,
+          "start_ms": 11762,
+          "end_ms": 11929,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 37,
+          "word": "dream",
+          "start_sec": 11.939,
+          "end_sec": 12.274,
+          "start_ms": 11939,
+          "end_ms": 12274,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 38,
+          "word": "that",
+          "start_sec": 12.284,
+          "end_sec": 12.451,
+          "start_ms": 12284,
+          "end_ms": 12451,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 39,
+          "word": "one",
+          "start_sec": 12.461,
+          "end_sec": 12.796,
+          "start_ms": 12461,
+          "end_ms": 12796,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 40,
+          "word": "day",
+          "start_sec": 12.806,
+          "end_sec": 13.141,
+          "start_ms": 12806,
+          "end_ms": 13141,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 41,
+          "word": "even",
+          "start_sec": 13.151,
+          "end_sec": 13.486,
+          "start_ms": 13151,
+          "end_ms": 13486,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 42,
+          "word": "the",
+          "start_sec": 13.496,
+          "end_sec": 13.663,
+          "start_ms": 13496,
+          "end_ms": 13663,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 43,
+          "word": "state",
+          "start_sec": 13.673,
+          "end_sec": 14.008,
+          "start_ms": 13673,
+          "end_ms": 14008,
+          "duration_sec": 0.335
+        },
+        {
+          "index": 44,
+          "word": "of",
+          "start_sec": 14.018,
+          "end_sec": 14.185,
+          "start_ms": 14018,
+          "end_ms": 14185,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 45,
+          "word": "Mississippi",
+          "start_sec": 14.195,
+          "end_sec": 14.865,
+          "start_ms": 14195,
+          "end_ms": 14865,
+          "duration_sec": 0.67
+        },
+        {
+          "index": 46,
+          "word": "will",
+          "start_sec": 14.875,
+          "end_sec": 15.042,
+          "start_ms": 14875,
+          "end_ms": 15042,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 47,
+          "word": "be",
+          "start_sec": 15.052,
+          "end_sec": 15.219,
+          "start_ms": 15052,
+          "end_ms": 15219,
+          "duration_sec": 0.167
+        },
+        {
+          "index": 48,
+          "word": "transformed",
+          "start_sec": 15.229,
+          "end_sec": 15.815,
+          "start_ms": 15229,
+          "end_ms": 15815,
+          "duration_sec": 0.586
+        },
+        {
+          "index": 49,
+          "word": "into",
+          "start_sec": 15.825,
+          "end_sec": 15.936,
+          "start_ms": 15825,
+          "end_ms": 15936,
+          "duration_sec": 0.111
+        },
+        {
+          "index": 50,
+          "word": "an",
+          "start_sec": 15.946,
+          "end_sec": 15.936,
+          "start_ms": 15946,
+          "end_ms": 15936,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 51,
+          "word": "oasis",
+          "start_sec": 15.946,
+          "end_sec": 15.936,
+          "start_ms": 15946,
+          "end_ms": 15936,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 52,
+          "word": "of",
+          "start_sec": 15.946,
+          "end_sec": 15.936,
+          "start_ms": 15946,
+          "end_ms": 15936,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 53,
+          "word": "freedom.",
+          "start_sec": 15.946,
+          "end_sec": 15.936,
+          "start_ms": 15946,
+          "end_ms": 15936,
+          "duration_sec": -0.01
+        }
+      ],
+      "tiers": {
+        "tier_1_near_perfect": {
+          "file": "speeches/mlk_dream/tier_1_near_perfect.wav",
+          "quality_tier": "Near-Perfect (Score ~85)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 7.17,
+              "end_sec": 8.94,
+              "start_ms": 7171,
+              "end_ms": 8941,
+              "severity": "MODERATE",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.35,
+              "description": "Speech tempo violently accelerated by 35% (+1.35x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_1_near_perfect",
+              "speech_key": "mlk_dream"
+            }
+          ]
+        },
+        "tier_2_moderate_flaws": {
+          "file": "speeches/mlk_dream/tier_2_moderate_flaws.wav",
+          "quality_tier": "Moderate Flaws (Score ~68)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 4.78,
+              "end_sec": 6.53,
+              "start_ms": 4780,
+              "end_ms": 6530,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 1750,
+              "description": "Awkward mid-clause pause of 1.75s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "mlk_dream"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 10.36,
+              "end_sec": 13.55,
+              "start_ms": 10358,
+              "end_ms": 13545,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "mlk_dream"
+            }
+          ]
+        },
+        "tier_3_severe_flaws": {
+          "file": "speeches/mlk_dream/tier_3_severe_flaws.wav",
+          "quality_tier": "Severe Flaws (Score ~48)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 3.19,
+              "end_sec": 5.01,
+              "start_ms": 3187,
+              "end_ms": 5008,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.75,
+              "description": "Speech tempo violently accelerated by 75% (+1.75x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "mlk_dream"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 7.97,
+              "end_sec": 8.62,
+              "start_ms": 7968,
+              "end_ms": 8618,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "mlk_dream"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 10.84,
+              "end_sec": 14.34,
+              "start_ms": 10836,
+              "end_ms": 14342,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "mlk_dream"
+            }
+          ]
+        },
+        "tier_4_botched": {
+          "file": "speeches/mlk_dream/tier_4_botched.wav",
+          "quality_tier": "Botched / Catastrophic (Score ~32)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 2.39,
+              "end_sec": 4.59,
+              "start_ms": 2390,
+              "end_ms": 4590,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 2200,
+              "description": "Awkward mid-clause pause of 2.20s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_4_botched",
+              "speech_key": "mlk_dream"
+            },
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 5.58,
+              "end_sec": 7.3,
+              "start_ms": 5577,
+              "end_ms": 7300,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.85,
+              "description": "Speech tempo violently accelerated by 85% (+1.85x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_4_botched",
+              "speech_key": "mlk_dream"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 9.56,
+              "end_sec": 10.36,
+              "start_ms": 9561,
+              "end_ms": 10361,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_4_botched",
+              "speech_key": "mlk_dream"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 11.16,
+              "end_sec": 15.14,
+              "start_ms": 11155,
+              "end_ms": 15139,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_4_botched",
+              "speech_key": "mlk_dream"
+            }
+          ]
+        }
+      }
+    },
+    "steve_jobs_stanford": {
+      "title": "Stanford Commencement Address (2005)",
+      "speaker": "Steve Jobs",
+      "gender": "male",
+      "voice_model": "en-US-EricNeural",
+      "transcript": "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma \u2014 which is living with the results of other people's thinking. Stay hungry. Stay foolish.",
+      "baseline_audio": "speeches/steve_jobs_stanford/baseline.wav",
+      "baseline_duration_sec": 14.26,
+      "words": [
+        {
+          "index": 0,
+          "word": "Your",
+          "start_sec": 0.229,
+          "end_sec": 0.938,
+          "start_ms": 229,
+          "end_ms": 938,
+          "duration_sec": 0.709
+        },
+        {
+          "index": 1,
+          "word": "time",
+          "start_sec": 0.948,
+          "end_sec": 1.42,
+          "start_ms": 948,
+          "end_ms": 1420,
+          "duration_sec": 0.472
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "start_sec": 1.553,
+          "end_sec": 1.789,
+          "start_ms": 1553,
+          "end_ms": 1789,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 3,
+          "word": "limited,",
+          "start_sec": 1.799,
+          "end_sec": 2.626,
+          "start_ms": 1799,
+          "end_ms": 2626,
+          "duration_sec": 0.827
+        },
+        {
+          "index": 4,
+          "word": "so",
+          "start_sec": 2.636,
+          "end_sec": 2.872,
+          "start_ms": 2636,
+          "end_ms": 2872,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 5,
+          "word": "don't",
+          "start_sec": 2.882,
+          "end_sec": 3.118,
+          "start_ms": 2882,
+          "end_ms": 3118,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 6,
+          "word": "waste",
+          "start_sec": 3.128,
+          "end_sec": 3.6,
+          "start_ms": 3128,
+          "end_ms": 3600,
+          "duration_sec": 0.472
+        },
+        {
+          "index": 7,
+          "word": "it",
+          "start_sec": 3.61,
+          "end_sec": 3.846,
+          "start_ms": 3610,
+          "end_ms": 3846,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 8,
+          "word": "living",
+          "start_sec": 3.856,
+          "end_sec": 4.447,
+          "start_ms": 3856,
+          "end_ms": 4447,
+          "duration_sec": 0.591
+        },
+        {
+          "index": 9,
+          "word": "someone",
+          "start_sec": 5.012,
+          "end_sec": 5.957,
+          "start_ms": 5012,
+          "end_ms": 5957,
+          "duration_sec": 0.945
+        },
+        {
+          "index": 10,
+          "word": "else's",
+          "start_sec": 5.967,
+          "end_sec": 6.439,
+          "start_ms": 5967,
+          "end_ms": 6439,
+          "duration_sec": 0.472
+        },
+        {
+          "index": 11,
+          "word": "life.",
+          "start_sec": 6.449,
+          "end_sec": 6.921,
+          "start_ms": 6449,
+          "end_ms": 6921,
+          "duration_sec": 0.472
+        },
+        {
+          "index": 12,
+          "word": "Don't",
+          "start_sec": 6.931,
+          "end_sec": 7.167,
+          "start_ms": 6931,
+          "end_ms": 7167,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 13,
+          "word": "be",
+          "start_sec": 7.177,
+          "end_sec": 7.413,
+          "start_ms": 7177,
+          "end_ms": 7413,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 14,
+          "word": "trapped",
+          "start_sec": 7.423,
+          "end_sec": 8.014,
+          "start_ms": 7423,
+          "end_ms": 8013,
+          "duration_sec": 0.591
+        },
+        {
+          "index": 15,
+          "word": "by",
+          "start_sec": 8.024,
+          "end_sec": 8.26,
+          "start_ms": 8023,
+          "end_ms": 8260,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 16,
+          "word": "dogma",
+          "start_sec": 8.27,
+          "end_sec": 8.742,
+          "start_ms": 8270,
+          "end_ms": 8742,
+          "duration_sec": 0.472
+        },
+        {
+          "index": 17,
+          "word": "\u2014",
+          "start_sec": 8.752,
+          "end_sec": 8.988,
+          "start_ms": 8752,
+          "end_ms": 8988,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 18,
+          "word": "which",
+          "start_sec": 8.998,
+          "end_sec": 9.234,
+          "start_ms": 8998,
+          "end_ms": 9234,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 19,
+          "word": "is",
+          "start_sec": 9.244,
+          "end_sec": 9.48,
+          "start_ms": 9244,
+          "end_ms": 9480,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 20,
+          "word": "living",
+          "start_sec": 10.376,
+          "end_sec": 10.967,
+          "start_ms": 10376,
+          "end_ms": 10967,
+          "duration_sec": 0.591
+        },
+        {
+          "index": 21,
+          "word": "with",
+          "start_sec": 10.977,
+          "end_sec": 11.213,
+          "start_ms": 10977,
+          "end_ms": 11213,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 22,
+          "word": "the",
+          "start_sec": 11.223,
+          "end_sec": 11.459,
+          "start_ms": 11223,
+          "end_ms": 11459,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 23,
+          "word": "results",
+          "start_sec": 12.327,
+          "end_sec": 12.799,
+          "start_ms": 12327,
+          "end_ms": 12799,
+          "duration_sec": 0.472
+        },
+        {
+          "index": 24,
+          "word": "of",
+          "start_sec": 12.809,
+          "end_sec": 13.045,
+          "start_ms": 12809,
+          "end_ms": 13045,
+          "duration_sec": 0.236
+        },
+        {
+          "index": 25,
+          "word": "other",
+          "start_sec": 13.055,
+          "end_sec": 13.527,
+          "start_ms": 13055,
+          "end_ms": 13527,
+          "duration_sec": 0.472
+        },
+        {
+          "index": 26,
+          "word": "people's",
+          "start_sec": 13.537,
+          "end_sec": 14.246,
+          "start_ms": 13537,
+          "end_ms": 14246,
+          "duration_sec": 0.709
+        },
+        {
+          "index": 27,
+          "word": "thinking.",
+          "start_sec": 14.256,
+          "end_sec": 14.256,
+          "start_ms": 14256,
+          "end_ms": 14256,
+          "duration_sec": 0.0
+        },
+        {
+          "index": 28,
+          "word": "Stay",
+          "start_sec": 14.266,
+          "end_sec": 14.256,
+          "start_ms": 14266,
+          "end_ms": 14256,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 29,
+          "word": "hungry.",
+          "start_sec": 14.266,
+          "end_sec": 14.256,
+          "start_ms": 14266,
+          "end_ms": 14256,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 30,
+          "word": "Stay",
+          "start_sec": 14.266,
+          "end_sec": 14.256,
+          "start_ms": 14266,
+          "end_ms": 14256,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 31,
+          "word": "foolish.",
+          "start_sec": 14.266,
+          "end_sec": 14.256,
+          "start_ms": 14266,
+          "end_ms": 14256,
+          "duration_sec": -0.01
+        }
+      ],
+      "tiers": {
+        "tier_1_near_perfect": {
+          "file": "speeches/steve_jobs_stanford/tier_1_near_perfect.wav",
+          "quality_tier": "Near-Perfect (Score ~85)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 6.42,
+              "end_sec": 8.0,
+              "start_ms": 6415,
+              "end_ms": 7999,
+              "severity": "MODERATE",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.35,
+              "description": "Speech tempo violently accelerated by 35% (+1.35x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_1_near_perfect",
+              "speech_key": "steve_jobs_stanford"
+            }
+          ]
+        },
+        "tier_2_moderate_flaws": {
+          "file": "speeches/steve_jobs_stanford/tier_2_moderate_flaws.wav",
+          "quality_tier": "Moderate Flaws (Score ~68)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 4.28,
+              "end_sec": 6.03,
+              "start_ms": 4276,
+              "end_ms": 6026,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 1750,
+              "description": "Awkward mid-clause pause of 1.75s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "steve_jobs_stanford"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 9.27,
+              "end_sec": 12.12,
+              "start_ms": 9266,
+              "end_ms": 12117,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "steve_jobs_stanford"
+            }
+          ]
+        },
+        "tier_3_severe_flaws": {
+          "file": "speeches/steve_jobs_stanford/tier_3_severe_flaws.wav",
+          "quality_tier": "Severe Flaws (Score ~48)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 2.85,
+              "end_sec": 4.48,
+              "start_ms": 2851,
+              "end_ms": 4480,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.75,
+              "description": "Speech tempo violently accelerated by 75% (+1.75x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "steve_jobs_stanford"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 7.13,
+              "end_sec": 7.78,
+              "start_ms": 7128,
+              "end_ms": 7778,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "steve_jobs_stanford"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 9.69,
+              "end_sec": 12.83,
+              "start_ms": 9694,
+              "end_ms": 12830,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "steve_jobs_stanford"
+            }
+          ]
+        },
+        "tier_4_botched": {
+          "file": "speeches/steve_jobs_stanford/tier_4_botched.wav",
+          "quality_tier": "Botched / Catastrophic (Score ~32)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 2.14,
+              "end_sec": 4.34,
+              "start_ms": 2138,
+              "end_ms": 4338,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 2200,
+              "description": "Awkward mid-clause pause of 2.20s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_4_botched",
+              "speech_key": "steve_jobs_stanford"
+            },
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 4.99,
+              "end_sec": 6.53,
+              "start_ms": 4989,
+              "end_ms": 6530,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.85,
+              "description": "Speech tempo violently accelerated by 85% (+1.85x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_4_botched",
+              "speech_key": "steve_jobs_stanford"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 8.55,
+              "end_sec": 9.35,
+              "start_ms": 8553,
+              "end_ms": 9353,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_4_botched",
+              "speech_key": "steve_jobs_stanford"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 9.98,
+              "end_sec": 13.54,
+              "start_ms": 9979,
+              "end_ms": 13543,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_4_botched",
+              "speech_key": "steve_jobs_stanford"
+            }
+          ]
+        }
+      }
+    },
+    "churchill_fight": {
+      "title": "We Shall Fight on the Beaches (1940)",
+      "speaker": "Winston Churchill",
+      "gender": "male",
+      "voice_model": "en-GB-RyanNeural",
+      "transcript": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+      "baseline_audio": "speeches/churchill_fight/baseline.wav",
+      "baseline_duration_sec": 10.7,
+      "words": [
+        {
+          "index": 0,
+          "word": "We",
+          "start_sec": 0.275,
+          "end_sec": 0.523,
+          "start_ms": 275,
+          "end_ms": 523,
+          "duration_sec": 0.248
+        },
+        {
+          "index": 1,
+          "word": "shall",
+          "start_sec": 0.533,
+          "end_sec": 0.78,
+          "start_ms": 533,
+          "end_ms": 780,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 2,
+          "word": "fight",
+          "start_sec": 0.79,
+          "end_sec": 1.037,
+          "start_ms": 790,
+          "end_ms": 1037,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 3,
+          "word": "on",
+          "start_sec": 1.047,
+          "end_sec": 1.294,
+          "start_ms": 1047,
+          "end_ms": 1294,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 4,
+          "word": "the",
+          "start_sec": 1.304,
+          "end_sec": 1.551,
+          "start_ms": 1304,
+          "end_ms": 1551,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 5,
+          "word": "beaches,",
+          "start_sec": 1.561,
+          "end_sec": 2.302,
+          "start_ms": 1561,
+          "end_ms": 2302,
+          "duration_sec": 0.741
+        },
+        {
+          "index": 6,
+          "word": "we",
+          "start_sec": 2.312,
+          "end_sec": 2.559,
+          "start_ms": 2312,
+          "end_ms": 2559,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 7,
+          "word": "shall",
+          "start_sec": 2.569,
+          "end_sec": 2.816,
+          "start_ms": 2569,
+          "end_ms": 2816,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 8,
+          "word": "fight",
+          "start_sec": 2.826,
+          "end_sec": 3.073,
+          "start_ms": 2826,
+          "end_ms": 3073,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 9,
+          "word": "on",
+          "start_sec": 3.083,
+          "end_sec": 3.33,
+          "start_ms": 3083,
+          "end_ms": 3330,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 10,
+          "word": "the",
+          "start_sec": 3.34,
+          "end_sec": 3.587,
+          "start_ms": 3340,
+          "end_ms": 3587,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 11,
+          "word": "landing",
+          "start_sec": 3.597,
+          "end_sec": 4.215,
+          "start_ms": 3597,
+          "end_ms": 4215,
+          "duration_sec": 0.618
+        },
+        {
+          "index": 12,
+          "word": "grounds,",
+          "start_sec": 4.292,
+          "end_sec": 4.787,
+          "start_ms": 4292,
+          "end_ms": 4787,
+          "duration_sec": 0.495
+        },
+        {
+          "index": 13,
+          "word": "we",
+          "start_sec": 4.797,
+          "end_sec": 5.044,
+          "start_ms": 4797,
+          "end_ms": 5044,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 14,
+          "word": "shall",
+          "start_sec": 5.054,
+          "end_sec": 5.301,
+          "start_ms": 5054,
+          "end_ms": 5301,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 15,
+          "word": "fight",
+          "start_sec": 5.311,
+          "end_sec": 5.558,
+          "start_ms": 5311,
+          "end_ms": 5558,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 16,
+          "word": "in",
+          "start_sec": 5.568,
+          "end_sec": 5.815,
+          "start_ms": 5568,
+          "end_ms": 5815,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 17,
+          "word": "the",
+          "start_sec": 5.825,
+          "end_sec": 6.072,
+          "start_ms": 5825,
+          "end_ms": 6072,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 18,
+          "word": "fields",
+          "start_sec": 6.082,
+          "end_sec": 6.576,
+          "start_ms": 6082,
+          "end_ms": 6576,
+          "duration_sec": 0.494
+        },
+        {
+          "index": 19,
+          "word": "and",
+          "start_sec": 6.823,
+          "end_sec": 7.071,
+          "start_ms": 6823,
+          "end_ms": 7071,
+          "duration_sec": 0.248
+        },
+        {
+          "index": 20,
+          "word": "in",
+          "start_sec": 7.081,
+          "end_sec": 7.328,
+          "start_ms": 7081,
+          "end_ms": 7328,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 21,
+          "word": "the",
+          "start_sec": 7.338,
+          "end_sec": 7.585,
+          "start_ms": 7338,
+          "end_ms": 7585,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 22,
+          "word": "streets,",
+          "start_sec": 7.595,
+          "end_sec": 8.089,
+          "start_ms": 7595,
+          "end_ms": 8089,
+          "duration_sec": 0.494
+        },
+        {
+          "index": 23,
+          "word": "we",
+          "start_sec": 8.099,
+          "end_sec": 8.346,
+          "start_ms": 8099,
+          "end_ms": 8346,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 24,
+          "word": "shall",
+          "start_sec": 8.495,
+          "end_sec": 8.742,
+          "start_ms": 8495,
+          "end_ms": 8742,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 25,
+          "word": "fight",
+          "start_sec": 8.752,
+          "end_sec": 8.999,
+          "start_ms": 8752,
+          "end_ms": 8999,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 26,
+          "word": "in",
+          "start_sec": 9.009,
+          "end_sec": 9.256,
+          "start_ms": 9009,
+          "end_ms": 9256,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 27,
+          "word": "the",
+          "start_sec": 9.266,
+          "end_sec": 9.513,
+          "start_ms": 9266,
+          "end_ms": 9513,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 28,
+          "word": "hills;",
+          "start_sec": 9.523,
+          "end_sec": 9.77,
+          "start_ms": 9523,
+          "end_ms": 9770,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 29,
+          "word": "we",
+          "start_sec": 9.78,
+          "end_sec": 10.027,
+          "start_ms": 9780,
+          "end_ms": 10027,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 30,
+          "word": "shall",
+          "start_sec": 10.037,
+          "end_sec": 10.284,
+          "start_ms": 10037,
+          "end_ms": 10284,
+          "duration_sec": 0.247
+        },
+        {
+          "index": 31,
+          "word": "never",
+          "start_sec": 10.294,
+          "end_sec": 10.704,
+          "start_ms": 10294,
+          "end_ms": 10704,
+          "duration_sec": 0.41
+        },
+        {
+          "index": 32,
+          "word": "surrender.",
+          "start_sec": 10.714,
+          "end_sec": 10.704,
+          "start_ms": 10714,
+          "end_ms": 10704,
+          "duration_sec": -0.01
+        }
+      ],
+      "tiers": {
+        "tier_1_near_perfect": {
+          "file": "speeches/churchill_fight/tier_1_near_perfect.wav",
+          "quality_tier": "Near-Perfect (Score ~85)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 4.82,
+              "end_sec": 6.01,
+              "start_ms": 4816,
+              "end_ms": 6006,
+              "severity": "MODERATE",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.35,
+              "description": "Speech tempo violently accelerated by 35% (+1.35x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_1_near_perfect",
+              "speech_key": "churchill_fight"
+            }
+          ]
+        },
+        "tier_2_moderate_flaws": {
+          "file": "speeches/churchill_fight/tier_2_moderate_flaws.wav",
+          "quality_tier": "Moderate Flaws (Score ~68)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 3.21,
+              "end_sec": 4.96,
+              "start_ms": 3211,
+              "end_ms": 4961,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 1750,
+              "description": "Awkward mid-clause pause of 1.75s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "churchill_fight"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 6.96,
+              "end_sec": 9.1,
+              "start_ms": 6957,
+              "end_ms": 9098,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "churchill_fight"
+            }
+          ]
+        },
+        "tier_3_severe_flaws": {
+          "file": "speeches/churchill_fight/tier_3_severe_flaws.wav",
+          "quality_tier": "Severe Flaws (Score ~48)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 2.14,
+              "end_sec": 3.36,
+              "start_ms": 2140,
+              "end_ms": 3364,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.75,
+              "description": "Speech tempo violently accelerated by 75% (+1.75x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "churchill_fight"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 5.35,
+              "end_sec": 6.0,
+              "start_ms": 5352,
+              "end_ms": 6002,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "churchill_fight"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 7.28,
+              "end_sec": 9.63,
+              "start_ms": 7278,
+              "end_ms": 9633,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "churchill_fight"
+            }
+          ]
+        },
+        "tier_4_botched": {
+          "file": "speeches/churchill_fight/tier_4_botched.wav",
+          "quality_tier": "Botched / Catastrophic (Score ~32)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 1.61,
+              "end_sec": 3.81,
+              "start_ms": 1605,
+              "end_ms": 3805,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 2200,
+              "description": "Awkward mid-clause pause of 2.20s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_4_botched",
+              "speech_key": "churchill_fight"
+            },
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 3.75,
+              "end_sec": 4.9,
+              "start_ms": 3746,
+              "end_ms": 4903,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.85,
+              "description": "Speech tempo violently accelerated by 85% (+1.85x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_4_botched",
+              "speech_key": "churchill_fight"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 6.42,
+              "end_sec": 7.22,
+              "start_ms": 6422,
+              "end_ms": 7222,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_4_botched",
+              "speech_key": "churchill_fight"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 7.49,
+              "end_sec": 10.17,
+              "start_ms": 7492,
+              "end_ms": 10168,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_4_botched",
+              "speech_key": "churchill_fight"
+            }
+          ]
+        }
+      }
+    },
+    "multimodal_ai_keynote": {
+      "title": "The Multimodal Intelligence Frontier (2026)",
+      "speaker": "Keynote Orator",
+      "gender": "female",
+      "voice_model": "en-US-JennyNeural",
+      "transcript": "Multimodal intelligence is not merely the concatenation of text and vision. It is the unified acoustic, geometric, and semantic reasoning that unlocks autonomous machines capable of transforming science and education.",
+      "baseline_audio": "speeches/multimodal_ai_keynote/baseline.wav",
+      "baseline_duration_sec": 14.64,
+      "words": [
+        {
+          "index": 0,
+          "word": "Multimodal",
+          "start_sec": 0.229,
+          "end_sec": 0.956,
+          "start_ms": 229,
+          "end_ms": 956,
+          "duration_sec": 0.727
+        },
+        {
+          "index": 1,
+          "word": "intelligence",
+          "start_sec": 0.966,
+          "end_sec": 1.874,
+          "start_ms": 966,
+          "end_ms": 1874,
+          "duration_sec": 0.908
+        },
+        {
+          "index": 2,
+          "word": "is",
+          "start_sec": 1.884,
+          "end_sec": 2.066,
+          "start_ms": 1884,
+          "end_ms": 2066,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 3,
+          "word": "not",
+          "start_sec": 2.076,
+          "end_sec": 2.258,
+          "start_ms": 2076,
+          "end_ms": 2258,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 4,
+          "word": "merely",
+          "start_sec": 2.268,
+          "end_sec": 2.813,
+          "start_ms": 2268,
+          "end_ms": 2813,
+          "duration_sec": 0.545
+        },
+        {
+          "index": 5,
+          "word": "the",
+          "start_sec": 2.823,
+          "end_sec": 3.005,
+          "start_ms": 2823,
+          "end_ms": 3005,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 6,
+          "word": "concatenation",
+          "start_sec": 3.015,
+          "end_sec": 4.105,
+          "start_ms": 3015,
+          "end_ms": 4105,
+          "duration_sec": 1.09
+        },
+        {
+          "index": 7,
+          "word": "of",
+          "start_sec": 4.115,
+          "end_sec": 4.297,
+          "start_ms": 4115,
+          "end_ms": 4297,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 8,
+          "word": "text",
+          "start_sec": 4.307,
+          "end_sec": 4.489,
+          "start_ms": 4307,
+          "end_ms": 4489,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 9,
+          "word": "and",
+          "start_sec": 5.43,
+          "end_sec": 5.612,
+          "start_ms": 5430,
+          "end_ms": 5612,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 10,
+          "word": "vision.",
+          "start_sec": 5.622,
+          "end_sec": 6.167,
+          "start_ms": 5622,
+          "end_ms": 6167,
+          "duration_sec": 0.545
+        },
+        {
+          "index": 11,
+          "word": "It",
+          "start_sec": 6.177,
+          "end_sec": 6.359,
+          "start_ms": 6177,
+          "end_ms": 6359,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 12,
+          "word": "is",
+          "start_sec": 6.369,
+          "end_sec": 6.551,
+          "start_ms": 6369,
+          "end_ms": 6551,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 13,
+          "word": "the",
+          "start_sec": 6.561,
+          "end_sec": 6.743,
+          "start_ms": 6561,
+          "end_ms": 6743,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 14,
+          "word": "unified",
+          "start_sec": 6.753,
+          "end_sec": 7.57,
+          "start_ms": 6753,
+          "end_ms": 7570,
+          "duration_sec": 0.817
+        },
+        {
+          "index": 15,
+          "word": "acoustic,",
+          "start_sec": 7.58,
+          "end_sec": 8.307,
+          "start_ms": 7580,
+          "end_ms": 8307,
+          "duration_sec": 0.727
+        },
+        {
+          "index": 16,
+          "word": "geometric,",
+          "start_sec": 8.317,
+          "end_sec": 9.044,
+          "start_ms": 8317,
+          "end_ms": 9044,
+          "duration_sec": 0.727
+        },
+        {
+          "index": 17,
+          "word": "and",
+          "start_sec": 9.054,
+          "end_sec": 9.236,
+          "start_ms": 9054,
+          "end_ms": 9236,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 18,
+          "word": "semantic",
+          "start_sec": 9.246,
+          "end_sec": 9.791,
+          "start_ms": 9246,
+          "end_ms": 9791,
+          "duration_sec": 0.545
+        },
+        {
+          "index": 19,
+          "word": "reasoning",
+          "start_sec": 9.801,
+          "end_sec": 10.618,
+          "start_ms": 9801,
+          "end_ms": 10618,
+          "duration_sec": 0.817
+        },
+        {
+          "index": 20,
+          "word": "that",
+          "start_sec": 10.628,
+          "end_sec": 10.81,
+          "start_ms": 10628,
+          "end_ms": 10810,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 21,
+          "word": "unlocks",
+          "start_sec": 10.82,
+          "end_sec": 11.183,
+          "start_ms": 10820,
+          "end_ms": 11183,
+          "duration_sec": 0.363
+        },
+        {
+          "index": 22,
+          "word": "autonomous",
+          "start_sec": 11.193,
+          "end_sec": 12.283,
+          "start_ms": 11193,
+          "end_ms": 12283,
+          "duration_sec": 1.09
+        },
+        {
+          "index": 23,
+          "word": "machines",
+          "start_sec": 12.293,
+          "end_sec": 12.838,
+          "start_ms": 12293,
+          "end_ms": 12838,
+          "duration_sec": 0.545
+        },
+        {
+          "index": 24,
+          "word": "capable",
+          "start_sec": 12.848,
+          "end_sec": 13.393,
+          "start_ms": 12848,
+          "end_ms": 13393,
+          "duration_sec": 0.545
+        },
+        {
+          "index": 25,
+          "word": "of",
+          "start_sec": 13.403,
+          "end_sec": 13.585,
+          "start_ms": 13403,
+          "end_ms": 13585,
+          "duration_sec": 0.182
+        },
+        {
+          "index": 26,
+          "word": "transforming",
+          "start_sec": 13.595,
+          "end_sec": 14.231,
+          "start_ms": 13595,
+          "end_ms": 14231,
+          "duration_sec": 0.636
+        },
+        {
+          "index": 27,
+          "word": "science",
+          "start_sec": 14.241,
+          "end_sec": 14.64,
+          "start_ms": 14241,
+          "end_ms": 14640,
+          "duration_sec": 0.399
+        },
+        {
+          "index": 28,
+          "word": "and",
+          "start_sec": 14.65,
+          "end_sec": 14.64,
+          "start_ms": 14650,
+          "end_ms": 14640,
+          "duration_sec": -0.01
+        },
+        {
+          "index": 29,
+          "word": "education.",
+          "start_sec": 14.65,
+          "end_sec": 14.64,
+          "start_ms": 14650,
+          "end_ms": 14640,
+          "duration_sec": -0.01
+        }
+      ],
+      "tiers": {
+        "tier_1_near_perfect": {
+          "file": "speeches/multimodal_ai_keynote/tier_1_near_perfect.wav",
+          "quality_tier": "Near-Perfect (Score ~85)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 6.59,
+              "end_sec": 8.21,
+              "start_ms": 6588,
+              "end_ms": 8214,
+              "severity": "MODERATE",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.35,
+              "description": "Speech tempo violently accelerated by 35% (+1.35x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_1_near_perfect",
+              "speech_key": "multimodal_ai_keynote"
+            }
+          ]
+        },
+        "tier_2_moderate_flaws": {
+          "file": "speeches/multimodal_ai_keynote/tier_2_moderate_flaws.wav",
+          "quality_tier": "Moderate Flaws (Score ~68)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 4.39,
+              "end_sec": 6.14,
+              "start_ms": 4392,
+              "end_ms": 6142,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 1750,
+              "description": "Awkward mid-clause pause of 1.75s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "multimodal_ai_keynote"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 9.52,
+              "end_sec": 12.44,
+              "start_ms": 9516,
+              "end_ms": 12444,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_2_moderate_flaws",
+              "speech_key": "multimodal_ai_keynote"
+            }
+          ]
+        },
+        "tier_3_severe_flaws": {
+          "file": "speeches/multimodal_ai_keynote/tier_3_severe_flaws.wav",
+          "quality_tier": "Severe Flaws (Score ~48)",
+          "flaws": [
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 2.93,
+              "end_sec": 4.6,
+              "start_ms": 2928,
+              "end_ms": 4601,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.75,
+              "description": "Speech tempo violently accelerated by 75% (+1.75x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "multimodal_ai_keynote"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 7.32,
+              "end_sec": 7.97,
+              "start_ms": 7320,
+              "end_ms": 7970,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "multimodal_ai_keynote"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 9.96,
+              "end_sec": 13.18,
+              "start_ms": 9955,
+              "end_ms": 13176,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_3_severe_flaws",
+              "speech_key": "multimodal_ai_keynote"
+            }
+          ]
+        },
+        "tier_4_botched": {
+          "file": "speeches/multimodal_ai_keynote/tier_4_botched.wav",
+          "quality_tier": "Botched / Catastrophic (Score ~32)",
+          "flaws": [
+            {
+              "flaw_type": "INAPPROPRIATE_PAUSE",
+              "start_sec": 2.2,
+              "end_sec": 4.4,
+              "start_ms": 2196,
+              "end_ms": 4396,
+              "severity": "HIGH",
+              "mathematical_metric": "excessive_silence_duration",
+              "pause_duration_ms": 2200,
+              "description": "Awkward mid-clause pause of 2.20s breaking syntactic cohesion.",
+              "rationale": "Unplanned pause disrupts listener working memory during a tightly bound rhetorical clause.",
+              "tier": "tier_4_botched",
+              "speech_key": "multimodal_ai_keynote"
+            },
+            {
+              "flaw_type": "ERRATIC_RUSH",
+              "start_sec": 5.12,
+              "end_sec": 6.71,
+              "start_ms": 5124,
+              "end_ms": 6706,
+              "severity": "HIGH",
+              "mathematical_metric": "speech_rate_acceleration",
+              "speed_factor": 1.85,
+              "description": "Speech tempo violently accelerated by 85% (+1.85x baseline speed).",
+              "rationale": "Inter-syllable interval compressed to <90ms, causing phonetic blurring and rapid tempo instability.",
+              "tier": "tier_4_botched",
+              "speech_key": "multimodal_ai_keynote"
+            },
+            {
+              "flaw_type": "MISPLACED_EMPHASIS",
+              "start_sec": 8.78,
+              "end_sec": 9.58,
+              "start_ms": 8784,
+              "end_ms": 9584,
+              "severity": "MODERATE",
+              "mathematical_metric": "inverted_rms_energy_peak",
+              "description": "Explosive +9.5 dB stress blast placed on minor function word; rhetorical punchline deprived of emphasis.",
+              "rationale": "Energy peak misallocated to semantically vacuous particle rather than operative conceptual noun.",
+              "tier": "tier_4_botched",
+              "speech_key": "multimodal_ai_keynote"
+            },
+            {
+              "flaw_type": "MONOTONE_CADENCE",
+              "start_sec": 10.25,
+              "end_sec": 13.91,
+              "start_ms": 10248,
+              "end_ms": 13908,
+              "severity": "HIGH",
+              "mathematical_metric": "pitch_variance_reduction",
+              "description": "Fundamental frequency variance collapsed by >75%; flat robotic delivery devoid of rhetorical inflection.",
+              "rationale": "Suppression of F0 modulation robs the oration of melodic cadence, failing to signal question vs statement boundaries.",
+              "tier": "tier_4_botched",
+              "speech_key": "multimodal_ai_keynote"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
