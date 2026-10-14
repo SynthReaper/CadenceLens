@@ -1,0 +1,245 @@
+/* SpeechFlawEngine: Warm Newsprint & Zine Paper Theme (AccessLens Inspired) */
+
+/* Tactile newsprint / paper texture background */
+.bg-newsprint {
+  background-color: #fff8f5;
+  background-image: radial-gradient(#e5d8d0 0.85px, transparent 0.85px);
+  background-size: 16px 16px;
+}
+
+/* Tactile ink drop-shadows (Zine press effect) */
+.shadow-press-xs {
+  box-shadow: 1.5px 1.5px 0 #1e1b19;
+}
+.shadow-press-sm {
+  box-shadow: 2px 2px 0 #1e1b19;
+}
+.shadow-press {
+  box-shadow: 3px 3px 0 #1e1b19;
+}
+.shadow-press-lg {
+  box-shadow: 4px 4px 0 #1e1b19;
+}
+.shadow-press-xl {
+  box-shadow: 6px 6px 0 #1e1b19;
+}
+
+/* Corner Pushpins */
+.pushpin-primary {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: #cb4914;
+  box-shadow: 2px 2px 0 #1e1b19;
+  border: 2px solid #ffffff;
+}
+
+.pushpin-secondary {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: #37613d;
+  box-shadow: 2px 2px 0 #1e1b19;
+  border: 2px solid #ffffff;
+}
+
+.pushpin-amber {
+  width: 16px;
+  height: 16px;
+  border-radius: 9999px;
+  background: #d97706;
+  box-shadow: 2px 2px 0 #1e1b19;
+  border: 2px solid #ffffff;
+}
+
+/* Washi Tape authentic tinted paper stocks */
+.washi-tape-tertiary {
+  background: rgba(255, 221, 182, 0.95);
+}
+
+.washi-tape-primary {
+  background: rgba(255, 219, 207, 0.95);
+}
+
+.washi-tape-secondary {
+  background: rgba(200, 236, 202, 0.95);
+}
+
+/* Rubber Stamp Styling */
+.rubber-stamp {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 9px;
+  font-family: 'Space Mono', 'JetBrains Mono', monospace;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 2px solid currentColor;
+  border-radius: 5px;
+  user-select: none;
+  box-shadow: 1.5px 1.5px 0 rgba(30, 27, 25, 0.4);
+}
+
+/* Word Tokens for Forced-Aligned Karaoke Transcript */
+.word-chip {
+  display: inline-block;
+  padding: 3px 8px;
+  margin: 2.5px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 13.5px;
+  color: #1e1b19;
+  background: #ffffff;
+  border: 1.5px solid #1e1b19;
+  box-shadow: 1.5px 1.5px 0 #1e1b19;
+  cursor: pointer;
+  transition: all 0.12s ease;
+  user-select: none;
+}
+
+.word-chip:hover {
+  background: #ffddb6;
+  transform: translateY(-1px);
+  box-shadow: 2.5px 2.5px 0 #1e1b19;
+}
+
+.word-chip.active-karaoke {
+  background: #cb4914 !important;
+  color: #ffffff !important;
+  font-weight: 800;
+  transform: scale(1.08) rotate(-1deg);
+  box-shadow: 3px 3px 0 #1e1b19 !important;
+}
+
+.word-chip.has-flaw {
+  background: #fee2e2;
+  border-color: #dc2626;
+  color: #991b1b;
+  border-bottom: 3px solid #dc2626;
+}
+
+.word-chip.has-flaw:hover {
+  background: #fecaca;
+}
+
+.word-chip.active-flaw {
+  background: #cb4914 !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  border: 2px solid #1e1b19 !important;
+  transform: scale(1.08) !important;
+  box-shadow: 2px 2px 0 #1e1b19 !important;
+}
+
+/* Flaw Interval Chips */
+.flaw-chip {
+  cursor: pointer;
+  transition: all 0.12s ease;
+  user-select: none;
+  border: 2px solid #1e1b19;
+  box-shadow: 2px 2px 0 #1e1b19;
+}
+
+.flaw-chip:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 #1e1b19;
+}
+
+.flaw-chip.active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 #1e1b19;
+  outline: 2px solid #cb4914;
+}
+
+/* Navigation Tab Active state */
+.nav-tab {
+  border: 2px solid #1e1b19;
+  box-shadow: 2px 2px 0 #1e1b19;
+  transition: all 0.12s ease;
+}
+
+.nav-tab:hover {
+  transform: translateY(-1px);
+  box-shadow: 3px 3px 0 #1e1b19;
+}
+
+.nav-tab.active {
+  background-color: #cb4914 !important;
+  color: #ffffff !important;
+  box-shadow: 1.5px 1.5px 0 #1e1b19;
+  transform: translateY(1px);
+}
+
+/* Scrollbars for Paper UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4ece8;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1bfb5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cb4914;
+}
+
+/* Audio Player light mode styling */
+audio {
+  filter: contrast(0.9) brightness(1.05);
+  border-radius: 8px;
+}
+
+/* Publication Grade Academic Paper Typography & Booktabs */
+.booktabs-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Space Mono', 'JetBrains Mono', monospace;
+  font-size: 12px;
+}
+.booktabs-table thead tr {
+  border-top: 2.5px solid #1e1b19;
+  border-bottom: 1.5px solid #1e1b19;
+}
+.booktabs-table tbody tr:last-child {
+  border-bottom: 2.5px solid #1e1b19;
+}
+.booktabs-table th {
+  padding: 8px 12px;
+  font-weight: 700;
+  color: #1e1b19;
+  text-align: left;
+}
+.booktabs-table td {
+  padding: 8px 12px;
+  color: #1e1b19;
+}
+.booktabs-table tr:hover {
+  background-color: rgba(255, 221, 182, 0.25);
+}
+
+/* Academic Multi-Column Rules */
+.academic-columns {
+  column-count: 1;
+}
+@media (min-width: 900px) {
+  .academic-columns {
+    column-count: 2;
+    column-gap: 2.5rem;
+    column-rule: 1.5px dashed #e5d8d0;
+  }
+}
+
+/* Suppress ugly Windows native scrollbars while preserving scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.no-scrollbar {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
