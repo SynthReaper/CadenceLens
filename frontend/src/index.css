@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tactile Newsprint & Paper Track (AccessLens Style) */
+body {
+  background-color: #fff8f5;
+  background-image: radial-gradient(#e5d8d0 0.85px, transparent 0.85px);
+  background-size: 16px 16px;
+  color: #1e1b19;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hard ink press shadows with zero blur */
+.shadow-press {
+  box-shadow: 3px 3px 0 #1e1b19;
+}
+.shadow-press-sm {
+  box-shadow: 2px 2px 0 #1e1b19;
+}
+.shadow-press-lg {
+  box-shadow: 4px 4px 0 #1e1b19;
+}
+.shadow-press-xs {
+  box-shadow: 1.5px 1.5px 0 #1e1b19;
+}
+
+/* Corner Pushpins */
+.pushpin-primary {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background-color: #cb4914;
+  border: 2px solid #1e1b19;
+  box-shadow: 1.5px 1.5px 0 #1e1b19;
+}
+
+.pushpin-secondary {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background-color: #d97706;
+  border: 2px solid #1e1b19;
+  box-shadow: 1.5px 1.5px 0 #1e1b19;
+}
+
+.pushpin-sage {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background-color: #37613d;
+  border: 2px solid #1e1b19;
+  box-shadow: 1.5px 1.5px 0 #1e1b19;
+}
+
+/* Washi Tape Badges */
+.washi-tape-primary {
+  background-color: #ffdbcf;
+  box-shadow: 1.5px 1.5px 0 #1e1b19;
+  transform: rotate(-1.5deg);
+  display: inline-block;
+}
+
+.washi-tape-tertiary {
+  background-color: #ffddb6;
+  box-shadow: 1.5px 1.5px 0 #1e1b19;
+  transform: rotate(1.5deg);
+  display: inline-block;
+}
+
+/* Collectible Angled Rubber Stamps */
+.rubber-stamp {
+  border: 2px solid currentColor;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.15rem 0.45rem;
+  font-weight: 900;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* Academic Booktabs Table (No Vertical Lines) */
+.booktabs-table {
+  border-top: 2px solid #1e1b19;
+  border-bottom: 2px solid #1e1b19;
+  border-collapse: collapse;
+}
+
+.booktabs-table thead tr {
+  border-bottom: 1.5px solid #1e1b19;
+}
+
+.booktabs-table tbody tr.rule-mid {
+  border-top: 1px solid #e5d8d0;
+}
+
+.booktabs-table td, .booktabs-table th {
+  padding: 0.5rem 0.75rem;
+}
+
+/* Suppress ugly Windows native scrollbars while preserving scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.no-scrollbar {
+  -ms-overflow-style: none !important;  /* IE and Edge */
+  scrollbar-width: none !important;  /* Firefox */
+}
+
+/* Sleek tactile scrollbar for data tables and code blocks */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fff8f5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d8c7bc;
+  border-radius: 3px;
+  border: 1px solid #1e1b19;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #cb4914;
+}
+
+/* KaTeX Formula Display Clearance and Content-Box Reset */
+.katex {
+  font-size: 1.05em;
+  text-rendering: auto;
+}
+.katex-display {
+  margin: 0.75em 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25em 0 !important;
+}
+.katex .frac-line {
+  box-sizing: content-box !important;
+}

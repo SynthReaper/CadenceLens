@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <!-- Paper drop shadow filter -->
+    <filter id="shadow" x="0" y="0" width="120%" height="120%">
+      <feDropShadow dx="2" dy="2" stdDeviation="0" flood-color="#1e1b19" />
+    </filter>
+  </defs>
+  
+  <!-- Outer Rounded Stamp -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#cb4914" stroke="#1e1b19" stroke-width="3" filter="url(#shadow)" />
+  
+  <!-- Tactile Inner Dashed Inset -->
+  <rect x="8" y="8" width="48" height="48" rx="10" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="3,2" opacity="0.6" />
+  
+  <!-- Acoustic Waveform Bars (Forensic Cadence Spectrum) -->
+  <g fill="#ffffff">
+    <rect x="15" y="28" width="3.5" height="10" rx="1.75" />
+    <rect x="21" y="22" width="3.5" height="22" rx="1.75" />
+    <rect x="27" y="14" width="3.5" height="38" rx="1.75" />
+    <rect x="33" y="18" width="3.5" height="30" rx="1.75" />
+    <rect x="39" y="24" width="3.5" height="18" rx="1.75" />
+    <rect x="45" y="30" width="3.5" height="6" rx="1.75" />
+  </g>
+
+  <!-- Tuning Fork Ring Accent / Forensic Focal Target -->
+  <circle cx="28.75" cy="33" r="14" fill="none" stroke="#ffddb6" stroke-width="2" stroke-dasharray="2,2" opacity="0.8" />
+  
+  <!-- Small Corner Pushpin Indicator -->
+  <circle cx="51" cy="13" r="3.5" fill="#37613d" stroke="#ffffff" stroke-width="1" />
+</svg>
