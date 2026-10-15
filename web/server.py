@@ -46,13 +46,25 @@ def get_manifest():
     return {"speeches": {}}
 
 
-@app.get("/", response_class=HTMLResponse)
+@app.api_route("/", methods=["GET", "HEAD"], response_class=HTMLResponse)
 async def serve_index():
     index_path = os.path.join(templates_dir, "index.html")
     if os.path.exists(index_path):
         with open(index_path, "r", encoding="utf-8") as f:
             return f.read()
     return "<h1>CadenceLens UI is loading...</h1>"
+
+
+@app.get("/api/health")
+async def health_check():
+    """Health check endpoint for Render, monitoring, and telemetry."""
+    return {
+        "status": "healthy",
+        "service": "CadenceLens Forensic Acoustic Engine",
+        "version": "2.4.0",
+        "author": "SynthReaper",
+        "praat_parselmouth": True
+    }
 
 
 @app.get("/api/speeches")
