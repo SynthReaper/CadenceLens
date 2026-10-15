@@ -6,8 +6,8 @@
 
 [![Architect: SynthReaper](https://img.shields.io/badge/architect-SynthReaper-cb4914.svg?style=for-the-badge&logo=shield)](https://github.com/SynthReaper)
 [![GitHub Repository](https://img.shields.io/badge/github-SynthReaper%2FCadenceLens-1e1b19.svg?style=for-the-badge&logo=github)](https://github.com/SynthReaper/CadenceLens)
-[![Deploy with Vercel](https://img.shields.io/badge/Deploy%20with-Vercel-000000.svg?style=for-the-badge&logo=vercel)](https://vercel.com/new)
-[![Deploy to Render](https://img.shields.io/badge/Deploy%20to-Render-46E3B7.svg?style=for-the-badge&logo=render)](https://render.com/deploy)
+[![Live Frontend (Vercel)](https://img.shields.io/badge/Live%20Frontend-cadence--lens.vercel.app-000000.svg?style=for-the-badge&logo=vercel)](https://cadence-lens.vercel.app/)
+[![Live Backend (Render)](https://img.shields.io/badge/Live%20Backend-cadencelens.onrender.com-46E3B7.svg?style=for-the-badge&logo=render)](https://cadencelens.onrender.com/)
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-3776AB.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![React 19 + Vite](https://img.shields.io/badge/frontend-React%2019%20+%20Vite-61DAFB.svg?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
@@ -16,6 +16,13 @@
 [![Pytest](https://img.shields.io/badge/test%20suite-7%2F7%20passing%20(100%25)-37613d.svg?style=flat-square&logo=pytest&logoColor=white)](https://docs.pytest.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-d97706.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
+> 🌐 **Production Live Deployments:**
+> - **Live Web Application (Vercel)**: [https://cadence-lens.vercel.app/](https://cadence-lens.vercel.app/)
+> - **Live Cloud DSP Service (Render)**: [https://cadencelens.onrender.com/](https://cadencelens.onrender.com/)
+> - **Interactive Swagger API Docs**: [https://cadencelens.onrender.com/docs](https://cadencelens.onrender.com/docs)
+> - **Live Telemetry & Health Endpoint**: [https://cadencelens.onrender.com/api/health](https://cadencelens.onrender.com/api/health)
+> - **Speech Corpus Manifest**: [https://cadencelens.onrender.com/api/speeches](https://cadencelens.onrender.com/api/speeches)
+>
 > **Official Attribution & Watermark:** Engineered, architected, and validated by **SynthReaper** for the Multimodal AI Hackathon 2026. Every acoustic feature extractor, dynamic time warping alignment, and temporal flaw bounding algorithm is grounded in deterministic acoustic physics and clinical Praat DSP.
 
 ---
@@ -190,20 +197,48 @@ $$\mathcal{P}_{\text{trunc}} = \min\left(40, \; 50 \times \left(1 - \frac{T_{\te
 
 The dataset comprises **5 canonical speeches** spanning political, civil rights, keynote, and wartime rhetoric. Each speech contains a pristine baseline and 3 controlled acoustic flaw injects (25 total 22.05kHz 16-bit PCM WAV files, accompanied by `dataset_annotations.csv` and `dataset_manifest.json`):
 
-| Speech Key | Historical Source & Speaker | Baseline Model | Word Count | Target Duration |
-| :--- | :--- | :--- | :---: | :---: |
-| `jfk_inaugural` | John F. Kennedy — Inaugural Address (1961) | `en-US-ChristopherNeural` | 42 words | 15.2s |
-| `mlk_dream` | Martin Luther King Jr. — "I Have a Dream" (1963) | `en-US-GuyNeural` | 38 words | 14.8s |
-| `steve_jobs_stanford` | Steve Jobs — Stanford Commencement Address (2005) | `en-US-EricNeural` | 45 words | 16.1s |
-| `churchill_fight` | Winston Churchill — "We Shall Fight on the Beaches" (1940) | `en-GB-RyanNeural` | 40 words | 15.6s |
-| `keynote_vision` | Executive Tech Keynote — "The Future of Ambient Intelligence" | `en-US-JennyNeural` | 44 words | 15.4s |
+| Speech Key | Historical Source & Speaker | Baseline Model | Word Count | Target Duration | Live Baseline Stream |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| `jfk_inaugural` | John F. Kennedy — Inaugural Address (1961) | `en-US-ChristopherNeural` | 42 words | 15.2s | [`/api/audio/jfk_inaugural/baseline`](https://cadencelens.onrender.com/api/audio/jfk_inaugural/baseline) |
+| `mlk_dream` | Martin Luther King Jr. — "I Have a Dream" (1963) | `en-US-GuyNeural` | 38 words | 14.8s | [`/api/audio/mlk_dream/baseline`](https://cadencelens.onrender.com/api/audio/mlk_dream/baseline) |
+| `steve_jobs_stanford` | Steve Jobs — Stanford Commencement (2005) | `en-US-EricNeural` | 45 words | 16.1s | [`/api/audio/steve_jobs_stanford/baseline`](https://cadencelens.onrender.com/api/audio/steve_jobs_stanford/baseline) |
+| `churchill_fight` | Winston Churchill — "We Shall Fight" (1940) | `en-GB-RyanNeural` | 40 words | 15.6s | [`/api/audio/churchill_fight/baseline`](https://cadencelens.onrender.com/api/audio/churchill_fight/baseline) |
+| `keynote_vision` | Executive Tech Keynote — Ambient Intelligence | `en-US-JennyNeural` | 44 words | 15.4s | [`/api/audio/keynote_vision/baseline`](https://cadencelens.onrender.com/api/audio/keynote_vision/baseline) |
+
+### Detailed Speech Declamation Profiles
+
+1. **`jfk_inaugural` (John F. Kennedy — 1961 U.S. Presidential Inauguration)**
+   - *Text*: *"And so, my fellow Americans: ask not what your country can do for you — ask what you can do for your country. My fellow citizens of the world: ask not what America will do for you, but what together we can do for the freedom of man."*
+   - *Rhetorical Device*: Antimetabole / Chiasmus with solemn, measured cadence and patriotic climax.
+   - *Acoustic Baselines*: Median $F_0 = 135\text{ Hz}$, $F_1 = 520\text{ Hz}$, $F_2 = 1610\text{ Hz}$, HNR $= 18.2\text{ dB}$, Target Cadence $= 125\text{--}138\text{ WPM}$.
+
+2. **`mlk_dream` (Dr. Martin Luther King Jr. — 1963 March on Washington)**
+   - *Text*: *"I have a dream that one day this nation will rise up and live out the true meaning of its creed: We hold these truths to be self-evident, that all men are created equal."*
+   - *Rhetorical Device*: Anaphora with biblical resonance, deep harmonic warmth, and expansive vowel elongation.
+   - *Acoustic Baselines*: Median $F_0 = 118\text{ Hz}$, $F_1 = 490\text{ Hz}$, $F_2 = 1480\text{ Hz}$, HNR $= 19.5\text{ dB}$, Target Cadence $= 110\text{--}122\text{ WPM}$.
+
+3. **`steve_jobs_stanford` (Steve Jobs — 2005 Stanford Commencement Address)**
+   - *Text*: *"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma — which is living with the results of other people's thinking. Have the courage to follow your heart and intuition."*
+   - *Rhetorical Device*: Intimate narrative exposition with dramatic micro-pauses and punchy conversational stress.
+   - *Acoustic Baselines*: Median $F_0 = 126\text{ Hz}$, $F_1 = 540\text{ Hz}$, $F_2 = 1580\text{ Hz}$, HNR $= 17.8\text{ dB}$, Target Cadence $= 130\text{--}140\text{ WPM}$.
+
+4. **`churchill_fight` (Winston Churchill — 1940 "We Shall Fight on the Beaches")**
+   - *Text*: *"We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender."*
+   - *Rhetorical Device*: Epistrophe & tricolon crescendo with defiant staccato phrasing and heavy resonant gravitas.
+   - *Acoustic Baselines*: Median $F_0 = 112\text{ Hz}$, $F_1 = 460\text{ Hz}$, $F_2 = 1420\text{ Hz}$, HNR $= 18.9\text{ dB}$, Target Cadence $= 105\text{--}118\text{ WPM}$.
+
+5. **`keynote_vision` (Executive Keynote — "The Future of Ambient Intelligence")**
+   - *Text*: *"We stand at the threshold of a computational revolution where ambient intelligence seamlessly bridges physical and digital realms. The tools we forge today will define how humanity communicates, creates, and solves global challenges."*
+   - *Rhetorical Device*: High-velocity visionary exposition demanding crisp consonant articulation and forward vocal drive.
+   - *Acoustic Baselines*: Median $F_0 = 210\text{ Hz}$ (Female register), $F_1 = 580\text{ Hz}$, $F_2 = 1720\text{ Hz}$, HNR $= 20.1\text{ dB}$, Target Cadence $= 132\text{--}145\text{ WPM}$.
 
 ### Controlled Acoustic Quality Tiers
 
-1. **Tier 1 — Gold-Standard Baseline**: Pristine oratorical delivery with expressive $F_0$ dynamics ($\sigma_{\text{ST}} \approx 3.2\text{ ST}$), balanced phrasal stress, optimal pause cadence ($125\text{--}138\text{ WPM}$), and clinical HNR $> 18\text{ dB}$.
-2. **Tier 2 — Monotone Robotic Inject**: Synthesized fundamental frequency clamped to $\pm 0.4\text{ ST}$, eliminating rhetorical pitch inflections while preserving timing.
-3. **Tier 3 — Rushed Pacing Inject**: Tempo accelerated to $185\text{--}215\text{ WPM}$ across opening clauses, truncating syllabic durations and compressing inter-phrase pauses below $120\text{ms}$.
-4. **Tier 4 — Sluggish Drag & Pause Deficit**: Extended inter-clause dead air ($> 1.8\text{s}$) with sluggish vocal velocity ($< 90\text{ WPM}$), creating severe rhetorical fragmentation.
+For each speech, 4 progressive tiers evaluate phonetic decay:
+* **Tier 1 — Gold-Standard Baseline**: Pristine oratorical delivery with expressive $F_0$ dynamics ($\sigma_{\text{ST}} \approx 3.2\text{ ST}$), balanced phrasal stress, optimal pause cadence ($125\text{--}138\text{ WPM}$), and clinical HNR $> 18\text{ dB}$.
+* **Tier 2 — Monotone Robotic Inject**: Synthesized fundamental frequency clamped to $\pm 0.4\text{ ST}$, eliminating rhetorical pitch inflections while preserving timing.
+* **Tier 3 — Rushed Pacing Inject**: Tempo accelerated to $185\text{--}215\text{ WPM}$ across opening clauses, truncating syllabic durations and compressing inter-phrase pauses below $120\text{ms}$.
+* **Tier 4 — Sluggish Drag & Pause Deficit**: Extended inter-clause dead air ($> 1.8\text{s}$) with sluggish vocal velocity ($< 90\text{ WPM}$), creating severe rhetorical fragmentation.
 
 ---
 
