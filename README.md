@@ -94,7 +94,7 @@ Unlike simplistic librosa wrappers, CadenceLens interfaces directly with the nat
 
 Because human speakers vary their tempo across rhetorical clauses, linear Euclidean comparison yields catastrophic phase mismatch. CadenceLens implements non-linear DTW with a normalized Cosine cost metric across normalized semitone pitch, smoothed RMS energy, and syllabic velocity:
 
-$$D(i, j) = \delta(\mathbf{x}_i, \mathbf{y}_j) + \min \left\{ D(i-1, j), \; D(i, j-1), \; D(i-1, j-1) \right\}$$
+$$D(i, j) = \delta(\mathbf{x}_i, \mathbf{y}_j) + \min \left( D(i-1, j), \; D(i, j-1), \; D(i-1, j-1) \right)$$
 
 The optimal warping path aligns corresponding phonemes and words into an aligned temporal reference frame $\tau$.
 
