@@ -22,4 +22,5 @@ frontend/dist/
 doc/
 docs/
 .agents/
+brag-output/
 skills-lock.json
